@@ -13,37 +13,3 @@ homepage = "https://github.com/PsychedelicShayna/genpasswd"
 
 categories = ["command-line-utilities", "cryptography"]
 tags = ["cli", "password", "random", "generator", "mersenne twister"]
-
-[package]
-name = "jw"
-version = "2.2.9"
-edition = "2021"
-description = "Blazingly fast filesystem traverser and mass file hasher with diff support, powered by jwalk and xxh3!"
-license = "GPL-3.0-or-later"
-readme = "README.md"
-
-exclude = [
-  ".github",
-  "target"
-]
-
-repository = "https://github.com/PsychedelicShayna/jw"
-homepage = "https://github.com/PsychedelicShayna/jw"
-
-keywords = ["jwalk", "diff", "file", "search", "hash" ]
-
-[dependencies]
-clap = { version = "4.5.17" }
-crossbeam-channel = "0.5.13"
-jwalk = "0.8.1"
-md5 = "0.7.0"
-memmap2 = "0.9.5"
-rayon = "1.10.0"
-sha2 = "0.10.8"
-xxhash-rust = { version = "0.8.12", features = ["xxh3", "const_xxh3"] }
-
-
-
-exclude = [ ".github",
-  "target"
-]
