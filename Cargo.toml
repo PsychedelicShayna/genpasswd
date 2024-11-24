@@ -11,7 +11,7 @@ readme = "README.md"
 repository = "https://github.com/PsychedelicShayna/genpasswd"
 homepage = "https://github.com/PsychedelicShayna/genpasswd"
 
-categories = ["command-like-applications"]
+categories = ["command-line-applications"]
 tags = ["cli", "password", "random", "generator", "mersenne twister"]
 
 
